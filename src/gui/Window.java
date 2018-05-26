@@ -81,7 +81,7 @@ public class Window extends JFrame implements ActionListener, MouseListener {
 
         lblSelectCharacter1 = new JLabel("Select the number of each type of character");
         lblSelectCharacter1.setBounds(430, 360, 300, 20);
-        lblSelectCharacter2 = new JLabel("you want to add to the labyrinth.");
+        lblSelectCharacter2 = new JLabel("you want to add to the maze.");
         lblSelectCharacter2.setBounds(470, 375, 200, 20);
 
         SpinnerNumberModel spinnerModel1 = new SpinnerNumberModel(new Integer(0), new Integer(0), new Integer(99),
